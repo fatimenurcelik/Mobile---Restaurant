@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CSE-Restaurant</string>
+    <string name="home_tv_value">Home</string>
+    <string name="ads_tv_value">Ads</string>
+    <string name="basket_tv_value">Basket</string>
+    <string name="contact_tv_value">Contact</string>
+    <string name="detail_tv_value">Detail</string>
+    <string name="home_txt">Home</string>
+    <string name="ads_txt">Ads</string>
+    <string name="basket_txt">Basket</string>
+    <string name="contact_txt">Contact</string>
+    <string name="detail_txt">Detail</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

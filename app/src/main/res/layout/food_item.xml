@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".foodItemActivity">
+
+
+    <ImageView
+        android:id="@+id/recyclerview_imageview"
+        android:layout_width="300dp"
+        android:layout_height="260dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:ignore="VectorDrawableCompat"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textviewname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageview"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/textviewaciklama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textviewfiyat"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/textviewfiyat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textviewname"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="295dp"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/textviewsepet"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textviewfiyat"
+            android:textSize="20dp"
+            android:text="sepete ekle"
+            android:layout_marginBottom="30dp"/>
+
+</LinearLayout>
+    </ScrollView>
